@@ -15,7 +15,11 @@ app.get("/mercury", function(req, res) {
 
 app.get("/venus", function(req, res) {
     res.render("venus.html");
-})
+});
+
+app.get("/earth", function(req, res) {
+    res.render("earth.html");
+});
 
 //server listener
 app.listen(process.env.PORT, process.env.IP, function() {
