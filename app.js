@@ -1,6 +1,8 @@
 const express = require("express");
 const app = express();
 app.engine('html', require('ejs').renderFile);
+app.use(express.static("public"));
+
 
 //routes
 app.get("/", function(req, res) {
