@@ -1,4 +1,17 @@
 body {
     background-color: #CBE2F6;
     text-align: center;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    color: navy;
+    
+}
+
+a {
+    text-decoration: none;
+    color: royalblue;
+}
+
+a:hover {
+    font-style: italic;
+    text-shadow: 1px 1px white;
 }
